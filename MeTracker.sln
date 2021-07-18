@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeTracker.Android", "MeTracker.Android\MeTracker.Android.csproj", "{07096096-FF77-42AF-A2C3-C04AC6BE1C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeTracker", "MeTracker\MeTracker.csproj", "{9AC8C597-113D-47DD-82E7-C8AD665BBC70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07096096-FF77-42AF-A2C3-C04AC6BE1C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07096096-FF77-42AF-A2C3-C04AC6BE1C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07096096-FF77-42AF-A2C3-C04AC6BE1C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07096096-FF77-42AF-A2C3-C04AC6BE1C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC8C597-113D-47DD-82E7-C8AD665BBC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC8C597-113D-47DD-82E7-C8AD665BBC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC8C597-113D-47DD-82E7-C8AD665BBC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC8C597-113D-47DD-82E7-C8AD665BBC70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58A97F33-D6E6-4AAE-9A5A-451DB073C83C}
+	EndGlobalSection
+EndGlobal
