@@ -1,4 +1,5 @@
 ﻿using System;
+using MeTracker.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace MeTracker
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = Resolver.Resolve<MainView>();
         }
 
         protected override void OnStart()
@@ -23,6 +24,7 @@ namespace MeTracker
 
         protected override void OnResume()
         {
+            MainPage = Resolver.Resolve<MainView>();
         }
     }
 }
