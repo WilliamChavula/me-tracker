@@ -11,6 +11,8 @@ autom4te.cache/
 tarballs/
 test-results/
 
+AndroidManifest.xml
+
 # Mac bundle stuff
 *.dmg
 *.app

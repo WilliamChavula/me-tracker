@@ -13,7 +13,8 @@ namespace MeTracker.Droid
 
         public static void Init()
         {
-            var instance = new BootStrapper();
+            var instance = new Boostrapper();
+
         }
 
         protected override void Initialize()

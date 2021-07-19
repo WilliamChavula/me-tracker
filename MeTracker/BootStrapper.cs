@@ -4,6 +4,7 @@ using System.Reflection;
 using Autofac;
 using MeTracker.Repository;
 using MeTracker.ViewModels;
+using Xamarin.Forms;
 
 namespace MeTracker
 {
@@ -22,6 +23,11 @@ namespace MeTracker
             ContainerBuilder = new ContainerBuilder();
 
             var currentAssembly = Assembly.GetExecutingAssembly();
+
+            foreach (var type in currentAssembly.DefinedTypes.Where(e => e.IsSubclassOf(typeof(Page))))
+            {
+                ContainerBuilder.RegisterType(type.AsType());
+            }
 
             foreach (var type in currentAssembly.DefinedTypes.Where(e => e.IsSubclassOf(typeof(ViewModel))))
             {

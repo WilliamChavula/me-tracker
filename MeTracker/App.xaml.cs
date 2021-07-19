@@ -24,6 +24,7 @@ namespace MeTracker
 
         protected override void OnResume()
         {
+            MainPage = Resolver.Resolve<MainView>();
         }
     }
 }
